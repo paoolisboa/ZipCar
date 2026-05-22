@@ -1,0 +1,1 @@
+// se muestra la información del cliente una vez inciada la sesión
