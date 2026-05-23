@@ -2,10 +2,20 @@
 
 ## How to run:
 
+To open an android emulator:
+
 ```bash
 npm install 
 
 npm run android
+```
+
+Just to start the server: 
+
+```bash
+npm install 
+
+npx expo start
 ```
 
 ## Collaborators:

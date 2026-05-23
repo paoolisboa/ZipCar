@@ -1,0 +1,27 @@
+import React from "react";
+import { View, Text, Pressable } from "react-native";
+import { useSelector, useDispatch } from "react-redux";
+import { increment } from "../redux/slices/counterSlice";
+import { SafeAreaView } from "react-native-safe-area-context";
+
+export default function CounterComponent() {
+  // Reads Redux state.
+  // "Give me data from the store"
+  const count = useSelector((state) => state.counter.value);
+
+  // "I want to modify global state"
+  const dispatch = useDispatch();
+
+  return (
+    <SafeAreaView>
+      <View>
+        <Text>Counter: {count}</Text>
+
+        {/* dispatch: "Redux, execute this reducer" */}
+        <Pressable onPress={() => dispatch(increment())}>
+          <Text>Increment</Text>
+        </Pressable>
+      </View>
+    </SafeAreaView>
+  );
+}
