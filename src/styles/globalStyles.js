@@ -22,6 +22,7 @@ export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLORS.background,
+    padding: 16,
   },
   safeArea: {
     flex: 1,
