@@ -17,6 +17,16 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       }
     },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "ZipCar necesita acceso a tus fotos para agregar tu imagen de perfil.",
+          "cameraPermission": "ZipCar necesita acceso a la cámara para agregar tu imagen de perfil.",
+          "microphonePermission": false
+        }
+      ]
+    ],
     "web": {
       "favicon": "./assets/favicon.png"
     }

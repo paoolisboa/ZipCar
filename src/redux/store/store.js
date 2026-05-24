@@ -1,12 +1,11 @@
-// The store is the global memory of your app.
-// Store = giant JS object shared across the app
+import { configureStore } from "@reduxjs/toolkit";
+import counterReducer from "../slices/counterSlice";
+import authReducer from "../slices/authSlice";
 
-import { configureStore } from '@reduxjs/toolkit';
-import counterReducer from '../slices/counterSlice';
-
-export const store = configureStore({
+const store = configureStore({
   reducer: {
     counter: counterReducer,
+    auth: authReducer,
   },
 });
 
