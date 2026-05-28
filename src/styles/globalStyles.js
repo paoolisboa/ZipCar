@@ -89,7 +89,6 @@ export const globalStyles = StyleSheet.create({
     fontSize: 40,
     fontWeight: "900",
     color: "white",
-    
   },
 
   logoTextGreen: {
@@ -333,20 +332,64 @@ export const globalStyles = StyleSheet.create({
     alignItems: "center",
   },
 
+  flexCard: {
+    flex: 1,
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
   card: {
     backgroundColor: "#FFFFFF",
-
     borderRadius: 18,
-
     padding: 16,
-
     marginBottom: 14,
+  },
+
+  cardRelative: {
+    position: "relative",
+  },
+
+  cardHeaderRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 8,
+  },
+
+  infoRow: {
+    flexDirection: "row",
+    alignItems: "center",
+    flexWrap: "wrap",
+    gap: 12,
+  },
+
+  infoItem: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+
+  infoText: {
+    marginLeft: 6,
   },
 
   cardTitle: {
     fontSize: 18,
     fontWeight: "700",
     color: "#111111",
+  },
+
+  cardTitleHighlight: {
+    color: "#1D9E75",
+    marginLeft: 10,
+    flex: 1,
+  },
+
+  cardPrice: {
+    position: "absolute",
+    right: 16,
+    bottom: 16,
+    fontWeight: "700",
+    fontSize: 20,
+    color: "#303030",
   },
 
   bodyText: {
@@ -409,7 +452,6 @@ export const globalStyles = StyleSheet.create({
     marginBottom: 4,
   },
 
-  
   locationPlaceholder: {
     fontSize: 15,
     color: "#777",

@@ -4,6 +4,9 @@
   "main": "index.js",
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
+    "@fortawesome/fontawesome-svg-core": "^7.2.0",
+    "@fortawesome/free-solid-svg-icons": "^7.2.0",
+    "@fortawesome/react-native-fontawesome": "^1.0.0",
     "@mapbox/polyline": "^1.2.1",
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-navigation/bottom-tabs": "^7.16.1",
@@ -25,6 +28,7 @@
     "react-native-reanimated": "~4.1.1",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
+    "react-native-svg": "^15.15.5",
     "react-redux": "^9.3.0"
   },
   "scripts": {
