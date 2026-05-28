@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API_URL =
-  process.env.EXPO_PUBLIC_API_URL ?? "https://two-kids-unite.loca.lt";
+  process.env.EXPO_PUBLIC_API_URL;
 
 export const createPaymentPreference = async (paymentData) => {
   try {
